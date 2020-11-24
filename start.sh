@@ -3,7 +3,7 @@ set -e
 
 timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
-set
+printenv
 exit 1;
 
 INPUT_AUTHOR_EMAIL=${INPUT_AUTHOR_EMAIL:-'github-actions[bot]@users.noreply.github.com'}
